@@ -1,0 +1,32 @@
+{
+  "name": "pug-training",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kurodayuki000/pug-training.git",
+  "author": "<kurodayuki07122170@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production gulp serve",
+    "dev": "gulp serve"
+  },
+  "devDependencies": {
+    "autoprefixer": "9.8.6",
+    "browser-sync": "^2.27.7",
+    "cross-env": "^7.0.3",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-if": "^3.0.0",
+    "gulp-image-resize": "^0.13.1",
+    "gulp-imagemin": "7.1.0",
+    "gulp-postcss": "8",
+    "gulp-pug": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.49.9"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
