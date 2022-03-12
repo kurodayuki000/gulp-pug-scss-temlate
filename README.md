@@ -1,5 +1,4 @@
 ### 実行したコマンド
-
 - $ npm init -y
   - package.jsonの作成
 - $ npm i -D gulp gulp-sass gulp-pug
@@ -42,4 +41,3 @@
   - gulpfile.jsファイルを作成
 
 gulpfile.jsは gulp <関数名> で実行する
-

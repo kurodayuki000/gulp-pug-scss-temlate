@@ -2,7 +2,6 @@ const {src, dest, watch, series, parallel} = require('gulp');
 const rename = require('gulp-rename');
 const imageResize = require('gulp-image-resize');
 const imagemin = require("gulp-imagemin");
-const loadPlugins = require('gulp-load-plugins');
 const sourcemaps = require('gulp-sourcemaps');
 const sass = require('gulp-sass')(require('sass'));
 const autoprefixer = require('autoprefixer');
